@@ -5,7 +5,10 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+<<<<<<< Updated upstream
     base: process.env.VITE_BASE_PATH || '/bytespace-new-doin-tech',
+=======
+>>>>>>> Stashed changes
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
